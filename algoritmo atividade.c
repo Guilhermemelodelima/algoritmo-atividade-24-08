@@ -9,13 +9,13 @@ int main() {
     printf("O seu amigo esta livre (1 para sim, 0 para nao)? ");
     scanf("%d", &amigoDisponivel);
     
-    printf("Voce possui dinheiro suficiente (1 para sim, 0 para não)? ");
+    printf("Voce possui dinheiro suficiente (1 para sim, 0 para nao)? ");
     scanf("%d", &dinheiroSuficiente);
 
     if (tempoBom && amigoDisponivel && dinheiroSuficiente) {
-        printf("Você vai para o passeio!\n");
+        printf("Voce vai para o passeio!\n");
     } else if (!tempoBom || !amigoDisponivel || !dinheiroSuficiente) {
-        printf("Você não vai para o passeio.\n");
+        printf("Voce nao vai para o passeio.\n");
     } 
     
     return 0;
